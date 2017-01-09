@@ -1,0 +1,36 @@
+{
+	"fields": [
+		{
+			"name": "RefNum",
+			"title": "Reference Number",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "FSADataSharingActivity ",
+			"title": "Data Sharing Category ",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Directorate",
+			"title": "Assigned Directorate",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "DataSharingAgreementSigned",
+			"title": "Status of Data Sharing Agreement",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		}
+	]
+}
